@@ -9,6 +9,8 @@ specifiers:
   eslint: ^7.31.0
   eslint-config-dmitmel: github:dmitmel/eslint-config-dmitmel
   eslint-plugin-node: ^11.1.0
+  husky: ^7.0.1
+  prettier: ^2.3.2
   ts-node: ^10.1.0
   tsc-watch: ^4.4.0
   typescript: ^4.3.5
@@ -24,6 +26,8 @@ devDependencies:
   eslint: 7.31.0
   eslint-config-dmitmel: github.com/dmitmel/eslint-config-dmitmel/f8e1b77084006e68de901e2fe7d3eed34fedf51e_eslint@7.31.0
   eslint-plugin-node: 11.1.0_eslint@7.31.0
+  husky: 7.0.1
+  prettier: 2.3.2
   ts-node: 10.1.0_9c9608add82e342d39d60fef9af9e8e0
   tsc-watch: 4.4.0_typescript@4.3.5
   typescript: 4.3.5
@@ -809,6 +813,12 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /husky/7.0.1:
+    resolution: {integrity: sha512-gceRaITVZ+cJH9sNHqx5tFwbzlLCVxtVZcusME8JYQ8Edy5mpGDOqD8QBCdMhpyo9a+JXddnujQ4rpY2Ff9SJA==}
+    engines: {node: '>=12'}
+    hasBin: true
+    dev: true
+
   /ignore/4.0.6:
     resolution: {integrity: sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==}
     engines: {node: '>= 4'}
@@ -1040,6 +1050,12 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier/2.3.2:
+    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /prism-media/1.3.1:

@@ -1,35 +1,38 @@
 {
-  "name": "aspidabot",
-  "version": "1.0.0",
-  "description": "Aspida RP server bot",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@git.nova-vps.ml:lexisother/AspidaBot"
-  },
-  "keywords": [
-    "discord",
-    "bot",
-    "typescript"
-  ],
-  "author": "Alyxia Sother",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "discord.js": "^12.5.3"
-  },
-  "devDependencies": {
-    "@types/node": "^16.4.3",
-    "@types/ws": "^7.4.7",
-    "@typescript-eslint/eslint-plugin": "^4.28.5",
-    "@typescript-eslint/parser": "^4.28.5",
-    "eslint": "^7.31.0",
-    "eslint-config-dmitmel": "github:dmitmel/eslint-config-dmitmel",
-    "eslint-plugin-node": "^11.1.0",
-    "ts-node": "^10.1.0",
-    "tsc-watch": "^4.4.0",
-    "typescript": "^4.3.5"
-  }
+    "name": "aspidabot",
+    "version": "1.0.0",
+    "description": "Aspida RP server bot",
+    "main": "dist/index.js",
+    "scripts": {
+        "format": "prettier --write **/*",
+        "postinstall": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@git.nova-vps.ml:lexisother/AspidaBot"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "typescript"
+    ],
+    "author": "Alyxia Sother",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "discord.js": "^12.5.3"
+    },
+    "devDependencies": {
+        "@types/node": "^16.4.3",
+        "@types/ws": "^7.4.7",
+        "@typescript-eslint/eslint-plugin": "^4.28.5",
+        "@typescript-eslint/parser": "^4.28.5",
+        "eslint": "^7.31.0",
+        "eslint-config-dmitmel": "github:dmitmel/eslint-config-dmitmel",
+        "eslint-plugin-node": "^11.1.0",
+        "husky": "^7.0.1",
+        "prettier": "^2.3.2",
+        "ts-node": "^10.1.0",
+        "tsc-watch": "^4.4.0",
+        "typescript": "^4.3.5"
+    }
 }
